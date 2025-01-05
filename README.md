@@ -8,47 +8,47 @@ Projenin amacı, giyim mağazasının operasyonlarını daha etkin ve verimli bi
 
 ### Veri Modeli ve Tasarımı:
 ## 1.	Şehir Tablosu (Sehir)
-     	SehirID: Birincil anahtar.
-      SehirAdi: Şehrin adı.
+     SehirID: Birincil anahtar.
+     SehirAdi: Şehrin adı.
 ## 2.	Mağaza Tablosu (Magaza)
-o	MagazaID: Birincil anahtar.
-o	MagazaAdi: Mağaza adı.
-o	SehirID: Şehir tablosuna yabancı anahtar.
-o	Adres: Mağazanın adresi.
-3.	Müşteri Tablosu (Musteri)
-o	MusteriID: Birincil anahtar.
-o	Ad, Soyad: Müşterinin adı ve soyadı.
-o	Eposta, Telefon: İletişim bilgileri.
-o	SehirID: Şehir tablosuna yabancı anahtar.
-4.	Çalışan Tablosu (Calisan)
-o	CalisanID: Birincil anahtar.
-o	Ad, Soyad: Çalışanın adı ve soyadı.
-o	Eposta, Telefon: İletişim bilgileri.
-o	MagazaID: Mağaza tablosuna yabancı anahtar.
-o	Pozisyon: Çalışanın pozisyonu.
+     MagazaID: Birincil anahtar.
+     MagazaAdi: Mağaza adı.
+     SehirID: Şehir tablosuna yabancı anahtar.
+     Adres: Mağazanın adresi.
+## 3.	Müşteri Tablosu (Musteri)
+     MusteriID: Birincil anahtar.
+     Ad, Soyad: Müşterinin adı ve soyadı.
+     Eposta, Telefon: İletişim bilgileri.
+     SehirID: Şehir tablosuna yabancı anahtar.
+## 4.	Çalışan Tablosu (Calisan)
+     CalisanID: Birincil anahtar.
+     Ad, Soyad: Çalışanın adı ve soyadı.
+     Eposta, Telefon: İletişim bilgileri.
+     MagazaID: Mağaza tablosuna yabancı anahtar.
+     Pozisyon: Çalışanın pozisyonu.
 5.	Ürün Tablosu (Urun)
-o	UrunID: Birincil anahtar.
-o	UrunAdi: Ürün adı.
-o	Fiyat: Ürün fiyatı.
-o	Stok: Stok adedi.
+     UrunID: Birincil anahtar.
+     UrunAdi: Ürün adı.
+     Fiyat: Ürün fiyatı.
+     Stok: Stok adedi.
 6.	Sipariş Tablosu (Siparis)
-o	SiparisID: Birincil anahtar.
-o	MusteriID: Müşteri tablosuna yabancı anahtar.
-o	SiparisTarihi: Sipariş tarihi.
-o	ToplamTutar: Siparişin toplam tutarı.
+     SiparisID: Birincil anahtar.
+     MusteriID: Müşteri tablosuna yabancı anahtar.
+     SiparisTarihi: Sipariş tarihi.
+     ToplamTutar: Siparişin toplam tutarı.
 7.	Sipariş Detayları Tablosu (SiparisDetaylari)
-o	SiparisDetayID: Birincil anahtar.
-o	SiparisID: Sipariş tablosuna yabancı anahtar.
-o	UrunID: Ürün tablosuna yabancı anahtar.
-o	Miktar, Fiyat: Sipariş detay bilgileri.
+     SiparisDetayID: Birincil anahtar.
+     SiparisID: Sipariş tablosuna yabancı anahtar.
+     UrunID: Ürün tablosuna yabancı anahtar.
+     Miktar, Fiyat: Sipariş detay bilgileri.
 8.	Fatura Tablosu (Fatura)
-o	FaturaID: Birincil anahtar.
-o	SiparisID: Sipariş tablosuna yabancı anahtar.
-o	FaturaTarihi, ToplamTutar: Fatura bilgileri.
+     FaturaID: Birincil anahtar.
+     SiparisID: Sipariş tablosuna yabancı anahtar.
+     FaturaTarihi, ToplamTutar: Fatura bilgileri.
 9.	Destek Hattı Tablosu (DestekHatti)
-o	DestekHattiID: Birincil anahtar.
-o	MusteriID: Müşteri tablosuna yabancı anahtar.
-o	SorunAciklamasi, SorunTarihi, Durum: Destek bilgileri.
+     DestekHattiID: Birincil anahtar.
+     MusteriID: Müşteri tablosuna yabancı anahtar.
+     SorunAciklamasi, SorunTarihi, Durum: Destek bilgileri.
 
 
 
