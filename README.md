@@ -26,26 +26,26 @@ Projenin amacı, giyim mağazasının operasyonlarını daha etkin ve verimli bi
      Eposta, Telefon: İletişim bilgileri.
      MagazaID: Mağaza tablosuna yabancı anahtar.
      Pozisyon: Çalışanın pozisyonu.
-5.	Ürün Tablosu (Urun)
+## 5.	Ürün Tablosu (Urun)
      UrunID: Birincil anahtar.
      UrunAdi: Ürün adı.
      Fiyat: Ürün fiyatı.
      Stok: Stok adedi.
-6.	Sipariş Tablosu (Siparis)
+## 6.	Sipariş Tablosu (Siparis)
      SiparisID: Birincil anahtar.
      MusteriID: Müşteri tablosuna yabancı anahtar.
      SiparisTarihi: Sipariş tarihi.
      ToplamTutar: Siparişin toplam tutarı.
-7.	Sipariş Detayları Tablosu (SiparisDetaylari)
+## 7.	Sipariş Detayları Tablosu (SiparisDetaylari)
      SiparisDetayID: Birincil anahtar.
      SiparisID: Sipariş tablosuna yabancı anahtar.
      UrunID: Ürün tablosuna yabancı anahtar.
      Miktar, Fiyat: Sipariş detay bilgileri.
-8.	Fatura Tablosu (Fatura)
+## 8.	Fatura Tablosu (Fatura)
      FaturaID: Birincil anahtar.
      SiparisID: Sipariş tablosuna yabancı anahtar.
      FaturaTarihi, ToplamTutar: Fatura bilgileri.
-9.	Destek Hattı Tablosu (DestekHatti)
+## 9.	Destek Hattı Tablosu (DestekHatti)
      DestekHattiID: Birincil anahtar.
      MusteriID: Müşteri tablosuna yabancı anahtar.
      SorunAciklamasi, SorunTarihi, Durum: Destek bilgileri.
