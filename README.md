@@ -1,12 +1,12 @@
 # Giyim Mağazası Projesi
 
-### Projenin Özeti:
+## Projenin Özeti:
 Giyim mağazası projesi kapsamında, ilişkisel veritabanı tasarımı, mağaza yönetimi, müşteri ilişkileri, ürün yönetimi, sipariş işlemleri ve destek hattı gibi alanları kapsayacak şekilde hazırladık.
 
-### Proje Amacı:
+## Proje Amacı:
 Projenin amacı, giyim mağazasının operasyonlarını daha etkin ve verimli bir şekilde yönetmektir. Bu veritabanı sistemi, müşteri, ürün, sipariş, mağaza, çalışan, şehir, fatura ve destek hattı gibi alanlardaki verileri düzenli bir şekilde yöneterek, mağaza operasyonlarının izlenmesini ve müşteri memnuniyetini artırmayı hedefler.
 
-### Veri Modeli ve Tasarımı:
+## Veri Modeli ve Tasarımı:
 ## 1.	Şehir Tablosu (Sehir)
      SehirID: Birincil anahtar.
      SehirAdi: Şehrin adı.
@@ -52,6 +52,6 @@ Projenin amacı, giyim mağazasının operasyonlarını daha etkin ve verimli bi
 
 
 
-### E-R Diyagramı
+## E-R Diyagramı
 
 ![WhatsApp Image 2024-12-30 at 12 07 20 PM](https://github.com/user-attachments/assets/fed91638-7016-4218-8d34-695a92a87d7d)
