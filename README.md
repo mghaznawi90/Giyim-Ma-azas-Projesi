@@ -1,5 +1,7 @@
 # Giyim Mağazası Projesi
 
+Özet:
+Giyim mağazası projesi kapsamında, ilişkisel veritabanı tasarımı, mağaza yönetimi, müşteri ilişkileri, ürün yönetimi, sipariş işlemleri ve destek hattı gibi alanları kapsayacak şekilde hazırladık.
 
 
 
