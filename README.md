@@ -7,10 +7,10 @@ Giyim mağazası projesi kapsamında, ilişkisel veritabanı tasarımı, mağaza
 Projenin amacı, giyim mağazasının operasyonlarını daha etkin ve verimli bir şekilde yönetmektir. Bu veritabanı sistemi, müşteri, ürün, sipariş, mağaza, çalışan, şehir, fatura ve destek hattı gibi alanlardaki verileri düzenli bir şekilde yöneterek, mağaza operasyonlarının izlenmesini ve müşteri memnuniyetini artırmayı hedefler.
 
 ### Veri Modeli ve Tasarımı:
-1.	Şehir Tablosu (Sehir)
-o	SehirID: Birincil anahtar.
-o	SehirAdi: Şehrin adı.
-2.	Mağaza Tablosu (Magaza)
+## 1.	Şehir Tablosu (Sehir)
+     	SehirID: Birincil anahtar.
+      SehirAdi: Şehrin adı.
+## 2.	Mağaza Tablosu (Magaza)
 o	MagazaID: Birincil anahtar.
 o	MagazaAdi: Mağaza adı.
 o	SehirID: Şehir tablosuna yabancı anahtar.
@@ -52,6 +52,6 @@ o	SorunAciklamasi, SorunTarihi, Durum: Destek bilgileri.
 
 
 
-
+### E-R Diyagramı
 
 ![WhatsApp Image 2024-12-30 at 12 07 20 PM](https://github.com/user-attachments/assets/fed91638-7016-4218-8d34-695a92a87d7d)
